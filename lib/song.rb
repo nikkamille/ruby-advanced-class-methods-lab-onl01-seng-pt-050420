@@ -38,7 +38,7 @@ class Song
   end
   
   def self.alphabetical
-    self.all.sort!
+    sorted = self.all.sort
   end
 
 end
