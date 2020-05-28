@@ -45,6 +45,7 @@ class Song
     song = song.new 
     song.name = song.split(" - ")[1].gsub(/.mp3/, "")
     song.artist_name = song.split[0]
+    song
   end
 
 end
