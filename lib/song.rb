@@ -38,7 +38,7 @@ class Song
   end
   
   def self.alphabetical
-    orted = sself.all.sort
+    self.all.sort { |song| song.name == name }
   end
 
 end
