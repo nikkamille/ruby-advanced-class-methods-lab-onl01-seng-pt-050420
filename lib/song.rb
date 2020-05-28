@@ -20,5 +20,9 @@ class Song
     song = self.new 
     song.name = name
   end
+  
+  def self.create_by_name(name)
+    
+  end
 
 end
